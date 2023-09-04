@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "crud_frontend",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +41,33 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.0",
+    "apollo-server-core": "^3.12.1",
+    "apollo-server-express": "^3.12.1",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^2.5.1",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+>>>>>>> eeb48832c6b7a75d3d03f1fbc141ba9673284ede
   }
 }
